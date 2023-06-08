@@ -1,0 +1,20 @@
+#checklish {
+    --background:#fff;
+    --text:#414856;
+    --check: #4f29f0;
+    --disabled: #c3c8de;
+    --width: 100px;
+    --height: 140px;
+    --border-radius:18px;
+
+    background: var(--background);
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(65, 72, 86, 0.25);
+    padding: 30px 45px;
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+}
