@@ -1,4 +1,4 @@
-#checklish {
+#checklist {
     --background:#fff;
     --text:#414856;
     --check: #4f29f0;
@@ -6,7 +6,6 @@
     --width: 100px;
     --height: 140px;
     --border-radius:18px;
-
     background: var(--background);
     width: var(--width);
     height: var(--height);
