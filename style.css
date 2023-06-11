@@ -17,3 +17,17 @@
     grid-template-columns: 30px auto;
     align-items: center;
 }
+#checklist label {
+    color: var(--text);
+    position: relative;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    width:fit-content ;
+    transition: color 0.3s ease;
+}
+#checklist label::before, 
+#checklist label::after {
+    content: "";
+    position: absolute;
+}
